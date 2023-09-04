@@ -2,8 +2,8 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: podinfo-release
-  namespace: default
+  name: podinfo
+  namespace: development
 spec:
   chart:
     spec:
@@ -16,6 +16,6 @@ spec:
   interval: 1m0s
   values:
     logLevel: debug
-    replicaCount: 2
+    replicaCount: 1
     ui:
-      color: red
+      color: blue
