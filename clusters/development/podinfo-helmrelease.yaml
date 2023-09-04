@@ -14,3 +14,8 @@ spec:
         name: podinfo
       version: 4.0.0
   interval: 1m0s
+  values:
+    logLevel: debug
+    replicaCount: 2
+    ui:
+      color: red
