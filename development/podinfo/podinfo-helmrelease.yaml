@@ -12,10 +12,8 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: podinfo
-      version: 4.0.0
+      version: 6.4.1
   interval: 1m0s
   values:
     logLevel: debug
     replicaCount: 1
-    ui:
-      color: blue
