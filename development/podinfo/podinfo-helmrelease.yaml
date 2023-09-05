@@ -16,4 +16,6 @@ spec:
   interval: 1m0s
   values:
     logLevel: debug
-    replicaCount: 1
+    replicaCount: 2
+    image:
+      tag: 5.0.0
